@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cifpfbmoll.examnpart2.MainActivity">
+    <item
+        android:id="@+id/sunAction"
+        android:orderInCategory="100"
+        android:icon="@drawable/moon_foreground"
+        android:title="moon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/helloAction"
+        android:orderInCategory="101"
+        android:title="Hello"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/face_foreground"/>
+</menu>
